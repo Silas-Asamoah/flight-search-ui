@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class AirAsiaBar extends StatelessWidget{
   final double height;
@@ -24,7 +25,9 @@ class AirAsiaBar extends StatelessWidget{
           centerTitle: true,
           title: new Text(
             "AirAsia",
-            style: TextStyle(fontFamily: 'NothingYouCouldDo', fontWeight: FontWeight.bold),
+            style: GoogleFonts.nothingYouCouldDo(
+              textStyle: TextStyle(fontWeight: FontWeight.bold),
+            ),
           ),
         ),
       ],
