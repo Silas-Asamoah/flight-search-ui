@@ -1,6 +1,7 @@
 import 'package:flightsearch/rounded_button.dart';
 import 'package:flutter/material.dart';
 import 'air_asia_bar.dart';
+import 'content_card.dart';
 
 class HomePage extends StatelessWidget{
   @override
@@ -17,7 +18,9 @@ class HomePage extends StatelessWidget{
                 child: new Column(
                   children: <Widget>[
                     _buildButtonsRow(),
-                    Container()
+                    Container(
+                      child: ContentCard(),
+                    ),
                   ],
                 ),
               )
